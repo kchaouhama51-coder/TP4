@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex4</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend> votre identite</legend>
+            <label for="nom">Nom</label>
+            <input type="text" placeholder="pre et nom" required>
+            <label for="email"> Email</label>
+            <input type="email" id="jhg" name="email" placeholder="exemple@ gfd.com">
+            <label for="tel">telephone </label>
+            <input type="tel"id ="tel" name="tel" placeholder="55555555587">
+        </fieldset>
+        <fieldset>
+        <legend> Adresse de livraison</legend>
+                <label for="">1ere</label><br>
+                <textarea id="adresse"name="raisons"></textarea> 
+                <label for="">2.pays</label><br>
+                <input type="text"id="pays"name="text">
+                <label for="cp">3.cp</label><br>
+                <input type="text" id="cp"name="cp">
+        </fieldset>
+        <fieldset>
+            <legend>informations cb</legend>
+            <ol>
+                <li>
+                    <fieldset>
+                        <legend>types de carte boncaire</legend>
+                        <ol>
+                            <li> 
+                                <input type="radio"id="visa"name="type_carte"value="VISA">
+                                <label for="visa">VISA</label>
+
+                            </li>
+                            <li>
+                                <input type="radio"id="AmEX"name="AmEX"value="AmEX">
+                                <label for="AmEX">AmEX</label>
+
+                            </li>
+                            <li>
+                                <input type="radio"id="Mas"name="Mas"value="AmEX">
+                                <label for="Mas">Mas</label>
+                            </li>
+                        </ol>
+                    </fieldset>
+                </li>
+                <li>
+                    <label for="num_carte">N°de carte</label>
+                    <input type="text"id="num_carte" name="num_carte">
+                </li>
+                <li>
+                    <label for="num_secu">N°de securite</label>
+                    <input type="password"id="num_secu" name="num_secu">
+                </li>
+                <li>
+                     <label for="num_por">num de por</label>
+                    <input type="text"id="num_por" name="num_por" placeholder="Meme nom que sur la carte">
+                </li>
+            </ol>
+        </fieldset>
+        <br>
+        <input type="submit" value="J'achéte !">
+    </form>
+</body>
+</html>
